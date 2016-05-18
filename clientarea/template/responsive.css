@@ -1,0 +1,71 @@
+@media screen and (max-width:800px){
+.center{
+width:100%;
+}
+
+/****************/
+/*Header Styles*/
+/**************/
+#header{
+line-height:30px;
+height:180px;
+}
+#header a{
+float:none;
+}
+
+#navbar{
+float:none;
+}
+#navbar ul li{
+display:block;
+margin:0 10px;
+}
+#navbar ul li a{
+font-size:30px;
+}
+
+/**************/
+/*Page Styles*/
+/************/
+
+/*Services Box Style*/
+.service-box{
+width:auto;
+display:block;
+}
+
+/*Plan Box Style*/
+.plan-box{
+width:auto;
+display:block;
+}
+
+/*Table Plan Style*/
+.plan-table thead{
+display:none;
+}
+.plan-table tbody td{
+display:block;
+}
+
+.plan-table-order a{
+display:block;
+}
+
+/*Features Style*/
+.feature-box{
+width:auto;
+display:block;
+}
+
+/****************/
+/*Footer Styles*/
+/**************/
+#footer nav ul{
+text-align:center;
+}
+#footer nav ul li{
+display:block;
+}
+}

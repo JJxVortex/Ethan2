@@ -1,0 +1,288 @@
+*{
+margin:0;
+padding:0;
+text-decoration:none;
+font-family:Arial, Sans-serif;
+}
+
+.center{
+margin:auto;
+width:95%;
+text-align:center;
+}
+
+/****************/
+/*Header Styles*/
+/**************/
+#header{
+line-height:100px;
+height:100px;
+}
+#header a{
+float:left;
+font-size:40px;
+color:#000;
+}
+#header a span{
+color:#ce0000;
+}
+#header a:hover{
+color:#ce0000;
+}
+
+#navbar{
+float:right;
+}
+#navbar ul li{
+display:inline-block;
+margin:0 10px;
+}
+#navbar ul li a{
+font-size:20px;
+}
+#navbar ul li a:hover{
+color:#ce0000;
+text-decoration:underline;
+}
+
+/**************/
+/*Page Styles*/
+/************/
+
+/*Banner Style*/
+#page-banner{
+background:url("../images/banner.jpg") no-repeat top center / cover;
+padding:50px;
+color:#fff;
+border-top:5px solid #ce0000;
+border-bottom:5px solid #ce0000;
+margin-bottom:50px;
+}
+#page-banner h1{
+font-size:30px;
+}
+#page-banner p{
+font-size:20px;
+}
+
+.banner{
+margin-top:50px;
+padding:10px;
+background:#353535 url(../images/texture.png) repeat;
+color:#fff;
+border-radius:10px;
+}
+
+/*Services Box Style*/
+.service-box{
+width:30%;
+margin:10px;
+border-radius:10px;
+border:2px solid #ce0000;
+font-size:20px;
+display:inline-block;
+background:#f1f1f1;
+}
+
+.service-content{
+margin:10px 30px;
+}
+
+.service-header{
+border-bottom:2px solid #000;
+margin-bottom:10px;
+}
+
+.service-main{
+text-align:left;
+list-style:url("../images/tick.png");
+}
+.service-main ul li{
+margin:10px 0;
+}
+.service-main span{
+font-weight:bold;
+}
+
+.service-footer{
+border-top:2px solid #000;
+}
+.service-footer a{
+display:block;
+background:#000;
+margin:5px 0;
+padding:10px;
+border-radius:10px;
+color:#CCB13C;
+}
+.service-footer a:hover{
+background:none;
+padding:8px;
+border:2px solid #000;
+color:#000;
+}
+
+/*Plan Box Style*/
+.plan-box{
+width:20%;
+margin:10px;
+border-radius:10px;
+border:2px solid #ce0000;
+font-size:20px;
+display:inline-block;
+background:#f1f1f1;
+}
+
+.plan-content{
+margin:5px;
+}
+
+.plan-header{
+border-bottom:2px solid #000;
+margin-bottom:10px;
+}
+
+.plan-main ul li{
+margin:10px 0;
+list-style:none;
+text-align:center;
+}
+.plan-main span{
+font-weight:bold;
+}
+
+.plan-footer{
+border-top:2px solid #000;
+}
+.plan-footer a{
+display:block;
+background:#000;
+margin:5px 0;
+padding:10px;
+border-radius:10px;
+color:#CCB13C;
+}
+.plan-footer a:hover{
+background:none;
+padding:8px;
+border:2px solid #000;
+color:#000;
+}
+
+/*Table Plan Style*/
+.plan-table{
+width:100%;
+border-collapse:separate;
+border-spacing:0 10px;
+font-size:20px;
+text-align:center;
+}
+.plan-table thead{
+background:#ce0000 url(../images/texture.png) repeat;
+color:#fff;
+}
+.plan-table thead th{
+padding:10px;
+}
+.plan-table tbody td{
+padding:10px;
+}
+.plan-table tbody tr{
+background:#f2f2f2;
+margin-bottom:5px;
+}
+.plan-table a:hover{
+background:#fff;
+color:#000;
+}
+
+.plan-table-order a{
+background:#000;
+padding:5px;
+border-radius:10px;
+color:#CCB13C;
+}
+.plan-table-order a:hover{
+background:none;
+padding:3px;
+border:2px solid #000;
+color:#000;
+}
+
+.plan-table-smaller{
+font-size:15px;
+}
+
+.plan-table-name{
+background:#fff;
+color:#000;
+}
+
+/*Features Style*/
+#features{
+background:#f1f1f1;
+margin-top:50px;
+}
+
+.feature-box{
+width:30%;
+margin:10px;
+display:inline-block;
+}
+
+.feature-header{
+font-size:20px;
+}
+
+/*Legal Style*/
+#legal{
+background:#f1f1f1;
+width:auto;
+height:auto;
+border-radius:10px;
+box-shadow:0 2px 0 2px;
+text-align:left;
+padding:20px;
+}
+#legal ol li{
+margin:5px;
+}
+
+/****************/
+/*Footer Styles*/
+/**************/
+#footer{
+background:#f1f1f1;
+border-top:5px solid #ce0000;
+border-bottom:5px solid #ce0000;
+margin-top:50px;
+}
+#footer nav ul{
+text-align:left;
+margin:10px 0;
+}
+#footer nav ul li{
+display:inline-block;
+margin:0 5px;
+}
+#footer nav ul li a{
+color:#000;
+}
+#footer nav ul li a:hover{
+color:#ce0000;
+text-decoration:underline;
+}
+
+#footer-footer{
+border-top:2px solid #000;
+}
+#footer-footer a{
+font-size:40px;
+color:#000;
+}
+#footer-footer a span{
+color:#ce0000;
+}
+#footer-footer a:hover{
+color:#ce0000;
+}
